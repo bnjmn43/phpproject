@@ -1,0 +1,158 @@
+/* 共通 */
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+h1, h2, h3, p, hr,
+form, input, div {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Lato, 'Hiragino Kaku Gothic Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: #89949E;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* index */
+.item-wrapper {
+  text-align: center;
+}
+
+.logo {
+  font-size: 40px;
+  color: #322F33;
+  display: inline-block;
+  margin: 0px;
+}
+
+.item-wrapper hr {
+  margin: 0px;
+}
+
+.item-wrapper h3 {
+  margin: 0px;
+  font-size: 20px;
+  color: #89949E;
+}
+
+.item {
+  display: inline-block;
+  width: 40%;
+}
+
+.item-image {
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #322F33;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #0071B0;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  color: #322F33;
+}
+
+.price span {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+input {
+  padding: 5px;
+  text-align: center;
+  width: 15%;
+  font-size: 15px;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  border-style: none;
+  color: #FFFFFF;
+  background-color: #0071B0;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  color: #FFFFFF;
+}
+
+/* confirm */
+.order-wrapper {
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.order-wrapper h2 {
+  color: #322F33;
+}
+
+.order-wrapper p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.order-wrapper h3 {
+  color: #0071B0;
+}
+
+/* info */
+.info-wrapper {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info-item {
+  border-radius: 5px;
+  margin: 0 auto;
+  border: 1px solid #DADADA;
+}
+
+.detail-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table > tbody > tr > td{
+  border-top:1px solid #322F33;
+  border-bottom:1px solid #322F33;
+}
+
+.size > tbody > tr > td {
+  border-bottom: 1px solid #DADADA;
+}
